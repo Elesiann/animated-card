@@ -1,0 +1,44 @@
+body {
+  background: #dcf5ff;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inner {
+  background: #465973;
+  padding: 1em;
+  border-radius: 10px;
+  width: 300px;
+  clip-path: circle(10% at 90% 20%);
+  transition: all 0.4s ease-in-out;
+}
+.inner:hover {
+  clip-path: circle(75%);
+  background: #6c8ba7;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-size: 0.9rem;
+}
+
+span {
+  float: right;
+  color: white;
+  font-weight: bold;
+  transition: color 0.4s;
+  display: block;
+  margin-top: 4%;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
